@@ -12,13 +12,13 @@ This repository contains the implementation of key concepts from Chapter 28: *Ma
 - **Description**: Factorizes a square matrix into lower (\( L \)) and upper (\( U \)) triangular matrices, with LUP decomposition adding a permutation matrix (\( P \)) for numerical stability.
 - **Applications**: Solving systems of linear equations, inverting matrices, and computing determinants.
 - **Files**: 
-  - `28.1_lu_lup.py`: Implementation of LU and LUP decomposition, solving linear equations, and benchmarking against Gaussian elimination.
+  - `28.1.py`: Implementation of LU and LUP decomposition, solving linear equations, and benchmarking against Gaussian elimination.
 
 ### **2. Matrix Inversion**
 - **Description**: Computes the inverse of a matrix using LUP decomposition and verifies the result.
 - **Applications**: Validating the correctness of inversion, comparing performance with NumPy's built-in inversion.
 - **Files**:
-  - `28.2_matrix_inversion.py`: Implementation of LUP-based matrix inversion, validation, and performance benchmarking.
+  - `28.2.py`: Implementation of LUP-based matrix inversion, validation, and performance benchmarking.
 
 ### **3. Symmetric Positive-Definite Matrices and Least-Squares Approximation**
 - **Description**: 
@@ -26,7 +26,7 @@ This repository contains the implementation of key concepts from Chapter 28: *Ma
   - Implements least-squares approximation using Cholesky decomposition for SPD matrices.
   - Benchmarks runtime against standard least-squares fitting.
 - **Files**:
-  - `28.3_spd_least_squares.py`: Implementation of SPD matrix validation, least-squares fitting, and runtime comparisons.
+  - `28.3.py`: Implementation of SPD matrix validation, least-squares fitting, and runtime comparisons.
 
 ## **Benchmark Results**
 - **LU and LUP Decomposition**: Comparison of runtime with Gaussian elimination for different matrix sizes.
